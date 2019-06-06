@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+#fondologo{
+  background-image: url("https://giffiles.alphacoders.com/201/201666.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  margin: auto;
+}
+.logo{
+  margin: 10px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: auto;
+  padding: 1em;
+}
+#barra{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXFwsxEQxeW5_f1uC0CMX3WvAW4OL99Go6lM5jRIsaUOXSdN1m");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid black;
+  display: flex;
+}
+#barra img{
+  display: flex;
+  height: 80px;
+  width:10%
+}
+#barra ul {
+  display: flex;
+  margin-left: auto;
+}
+.elemento{
+  display: flex;
+  margin: 0 100px;
+  flex-direction: column;
+  align-items: center;
+}
+.elemento > a{
+  text-decoration: none;
+  color: maroon;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.elemento > i {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: maroon;
+}
+.elemento:hover{
+  transform: scale(1.1);
+}
+.contain{
+  max-width: 1100px;
+  background-color: white;
+  opacity: 0.8;
+  padding: 1em;
+  margin: auto;
+}
+.master{
+  padding: 2em;
+  width:100%;
+  background-image:url("https://okdiario.com/img/2017/02/07/volcanes.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
